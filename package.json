@@ -1,0 +1,24 @@
+{
+  "name": "xmlBodyParser",
+  "description": "Parses POST requests with Content-Type: 'application/xml' for consumption in your node app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.0.5",
+    "xml2js": ">= 0.2.0"
+  },
+  "author": {
+    "name": "Arush Sehgal",
+    "email": "arush@getbrandid.com",
+    "url": "http://github.com/arush"
+  },
+  "keywords": [
+    "xml",
+    "json",
+    "express",
+    "bodyParser",
+    "parse",
+    "application/xml",
+    "text/xml"
+  ]
+}
