@@ -11,7 +11,7 @@ xmlBodyParser = (req, res, next) ->
   return next()  if "GET" is req.method or "HEAD" is req.method
   
   # check Content-Type
-  return next()  unless "application/xml" is utils.mime(req)
+  return next()  unless "application/xml" is utils.mime(req) or "text/xml" is utils.mime(req)
   
   # flag as parsed
   req._body = true
